@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AAD7636-8961-45EA-BAE9-708567FC91A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RiseOfUltron_29Feb2016</RootNamespace>
+    <AssemblyName>RiseOfUltron_29Feb2016</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Ayushya\Desktop\Set Number 5\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>18</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A24E9534C019DF8E4C2B89D176751A864900DBAC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>RiseOfUltron_29Feb2016_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BreachThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BreachThree.Designer.cs">
+      <DependentUpon>BreachThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BreachOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BreachOne.Designer.cs">
+      <DependentUpon>BreachOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BreachTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BreachTwo.Designer.cs">
+      <DependentUpon>BreachTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Description.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Description.Designer.cs">
+      <DependentUpon>Description.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SharedData.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map_1.Designer.cs">
+      <DependentUpon>Map_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map_2.Designer.cs">
+      <DependentUpon>Map_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NickSpeaks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NickSpeaks.Designer.cs">
+      <DependentUpon>NickSpeaks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NikReply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NikReply.Designer.cs">
+      <DependentUpon>NikReply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionForLevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionForLevel1.Designer.cs">
+      <DependentUpon>QuestionForLevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionForLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionForLevel2.Designer.cs">
+      <DependentUpon>QuestionForLevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionRapidFire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionRapidFire.Designer.cs">
+      <DependentUpon>QuestionRapidFire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionWithOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionWithOption.Designer.cs">
+      <DependentUpon>QuestionWithOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionWithOption_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionWithOption_2.Designer.cs">
+      <DependentUpon>QuestionWithOption_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Audio\Audio.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Audio.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Question\Breach1Question.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Breach1Question.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Question\Breach2Question.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Breach2Question.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Question\Breach3Question.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Breach3Question.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Question\Rules1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rules1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rules.Designer.cs">
+      <DependentUpon>Rules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UltronComes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UltronComes.Designer.cs">
+      <DependentUpon>UltronComes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BreachThree.resx">
+      <DependentUpon>BreachThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BreachOne.resx">
+      <DependentUpon>BreachOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BreachTwo.resx">
+      <DependentUpon>BreachTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Description.resx">
+      <DependentUpon>Description.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map_1.resx">
+      <DependentUpon>Map_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map_2.resx">
+      <DependentUpon>Map_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NickSpeaks.resx">
+      <DependentUpon>NickSpeaks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NikReply.resx">
+      <DependentUpon>NikReply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionForLevel1.resx">
+      <DependentUpon>QuestionForLevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionForLevel2.resx">
+      <DependentUpon>QuestionForLevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionRapidFire.resx">
+      <DependentUpon>QuestionRapidFire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionWithOption.resx">
+      <DependentUpon>QuestionWithOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionWithOption_2.resx">
+      <DependentUpon>QuestionWithOption_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Audio\Audio.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Audio.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Question\Breach1Question.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Breach1Question.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Question\Breach2Question.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Breach2Question.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Question\Breach3Question.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Breach3Question.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Question\Rules1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Rules1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rules.resx">
+      <DependentUpon>Rules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UltronComes.resx">
+      <DependentUpon>UltronComes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RiseOfUltron_29Feb2016_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acid Rain.wav" />
+    <Content Include="Resources\Audio\Level1Breached.wav" />
+    <Content Include="Resources\Audio\Level2Breached.wav" />
+    <Content Include="Resources\Audio\Level3Breached.wav" />
+    <None Include="Resources\BackgroundMusoc_converted.wav" />
+    <None Include="Resources\BackgroundMusic_converted.wav" />
+    <None Include="Resources\nikReply.jpg" />
+    <None Include="Resources\ultronSpeaks.jpg" />
+    <None Include="Resources\ultron1.jpg" />
+    <None Include="Resources\nik1.jpg" />
+    <None Include="Resources\map 2.1.jpg" />
+    <None Include="Resources\map 2.2.jpg" />
+    <None Include="Resources\map 2.3.jpg" />
+    <None Include="Resources\Ques_5_bkgd.jpg" />
+    <None Include="Resources\rules.jpg" />
+    <None Include="Resources\ULTRON.png" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\background 2.jpg" />
+    <None Include="Resources\begin.jpg" />
+    <None Include="Resources\4_options.jpg" />
+    <None Include="Resources\app bg.jpg" />
+    <None Include="Resources\Login.jpg" />
+    <None Include="Resources\Button.jpg" />
+    <None Include="Resources\Button1.jpg" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\box1.png" />
+    <None Include="Resources\box11.png" />
+    <None Include="Resources\box12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

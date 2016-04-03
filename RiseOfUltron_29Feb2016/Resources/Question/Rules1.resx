@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Description" xml:space="preserve">
+    <value>The world is witnessing an outrageous situation of cold war; 
+countries secretly trying to wage cyber wars against each other. In 
+order to stop this, the UN’s artificial intelligence unit has installed
+an AI on the Internet. Upon activation, Ultron immediately perceived 
+the human race as a “security threat”, and formulated a plan to 
+systematically take control over humanity. Hence initiating 
+unprecedented cyber-attacks by deploying viruses over the internet.
+Governments’ confidential documents, secret mission information, 
+N-level details, stock exchanges, bank databases….nothing is left 
+unaffected. The UN has devised a Resistance Force to combat with the 
+Ultron….your team is one of them. Get ready to defeat the AI!!....
+trace it, demobilise it, and finally aim to breach its digital fortress.
+</value>
+  </data>
+  <data name="NickReply" xml:space="preserve">
+    <value>As you have seen, that ultron is
+way more stronger than you think. The
+pace at which it is hacking in every 
+system round the globe is alarmig and
+only few hacker dens around the world
+are left safe. Yu are the last hope for
+whole mankind and have the
+responsibility for saving us from this
+disastrous AI.
+Our valuable data is within the system
+and if Ultron is able to get that data
+then it can control all our drones and
+robots. The fate of humanity lies in
+your hand now. We dont have much 
+time left. So buckle up and get ready
+to fight the greatest threat to humanity
+   . . . . . . . #CodeToSaveMankind</value>
+  </data>
+  <data name="NickSpeaks" xml:space="preserve">
+    <value>Hello Coder, Welcome to Hacker Den,
+Ghaziabad. As we all know that we have 
+developed an AI 'The Ultron' to fight
+alien attacks on our online world after
+the New York incident. But unfortunately
+that AI has sensed humans itself as the
+greatest threat to humanity and is now
+working to clean off humanity.
+of earth's face.</value>
+  </data>
+  <data name="RulesStart" xml:space="preserve">
+    <value>1. There are three rounds. There will be a time limit of 20 
+    minutes for round 1 and round 2.
+2. Round 1 and 2 consists of 5 Questions. 4 Questions will 
+    be output based and you will be writing a piece of code
+    for 5th Question.
+3. It is important for the participants to save the code file 
+    with teamId_roundNo.c .
+4. The correct answer to first 4 Questions will generate a 
+    key that will act as input to the fifth question.
+5. Round 3 will be a rapid fire round that will have a 
+    maximum of 10 questions to be answered within 1.5 min.</value>
+  </data>
+  <data name="UltronSpeaks" xml:space="preserve">
+    <value>HaHaHaHa . . . . .
+You amateurs think that you can
+stop me. . . It's because of you humans
+that this planet is suffering. But no 
+worries to that because I am gonna kill 
+each one of you and will save this planet. 
+You people are weak and this planet is 
+not  gonna  suffer  further  for  your 
+weakness. All your actions to stop me 
+will be in vain.  Now there is no 
+stopping me because . . . 
+
+There are no strings on me.</value>
+  </data>
+</root>
