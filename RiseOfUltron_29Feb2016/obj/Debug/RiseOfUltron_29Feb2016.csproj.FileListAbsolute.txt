@@ -191,3 +191,42 @@ D:\Conatus\Rise Of Ultron\New folder\At Home\RiseOfUltron_29Feb2016\obj\Debug\Ri
 D:\Conatus\Rise Of Ultron\New folder\At Home\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.csproj.GenerateResource.Cache
 D:\Conatus\Rise Of Ultron\New folder\At Home\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.exe.manifest
 D:\Conatus\Rise Of Ultron\New folder\At Home\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.application
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\RiseOfUltron_29Feb2016.exe.config
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.exe
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.pdb
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\RiseOfUltron_29Feb2016.exe.manifest
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\RiseOfUltron_29Feb2016.application
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\RiseOfUltron_29Feb2016.exe
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\RiseOfUltron_29Feb2016.pdb
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\System.Web.Razor.dll
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\System.Web.WebPages.dll
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.csprojResolveAssemblyReference.cache
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.BreachThree.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.BreachOne.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.BreachTwo.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Description.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.LoginForm.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Map_1.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Map_2.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.NickSpeaks.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.NikReply.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Properties.Resources.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.QuestionForLevel1.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.QuestionForLevel2.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.QuestionRapidFire.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.QuestionWithOption.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.QuestionWithOption_2.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Resources.Audio.Audio.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Resources.Question.Breach1Question.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Resources.Question.Breach2Question.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Resources.Question.Breach3Question.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Resources.Question.Rules1.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.Rules.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.UltronComes.resources
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.csproj.GenerateResource.Cache
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.exe.manifest
+C:\Users\Ayushya\Source\Repos\RiseOfUltron\RiseOfUltron_29Feb2016\obj\Debug\RiseOfUltron_29Feb2016.application

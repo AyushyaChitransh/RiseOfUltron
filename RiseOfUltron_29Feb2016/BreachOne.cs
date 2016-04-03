@@ -29,25 +29,25 @@ namespace RiseOfUltron_29Feb2016
             if (LoginForm.duration.TotalSeconds >= 0)
             {
                 labelTimer.Text = LoginForm.duration.ToString();
-                if ( SharedData.phase1Correct[0] == 1)
+                if (SharedData.phase1Correct[0] == 1)
                 {
                     labelAnswer1.Text = Breach1Question.q1Answer;
                     labelAnswer1.Visible = true;
                     button1.Enabled = false;
                     button1.BackColor = Color.FromArgb(18, 23, 26);
-                    if ( SharedData.phase1Correct[1] == 1)
+                    if (SharedData.phase1Correct[1] == 1)
                     {
                         labelAnswer2.Text = Breach1Question.q2Answer;
                         labelAnswer2.Visible = true;
                         button2.Enabled = false;
                         button2.BackColor = Color.FromArgb(18, 23, 26);
-                        if ( SharedData.phase1Correct[2] == 1)
+                        if (SharedData.phase1Correct[2] == 1)
                         {
                             labelAnswer3.Text = Breach1Question.q3Answer;
                             labelAnswer3.Visible = true;
                             button3.Enabled = false;
                             button3.BackColor = Color.FromArgb(18, 23, 26);
-                            if ( SharedData.phase1Correct[3] == 1)
+                            if (SharedData.phase1Correct[3] == 1)
                             {
                                 labelAnswer4.Text = Breach1Question.q4Answer;
                                 labelAnswer4.Visible = true;
@@ -81,37 +81,56 @@ namespace RiseOfUltron_29Feb2016
         {
             if (SharedData.phase1Correct[0] == 0)
             {
-                QuestionWithOption question = new QuestionWithOption(1,
-                    Breach1Question.q1, Breach1Question.q1Answer,
-                    Breach1Question.q1Option1, Breach1Question.q1Option2,
-                    Breach1Question.q1Option3, Breach1Question.q1Option4);
-                question.Show();
-                question.QuesNo = 0;
-                button2.Focus();
+                Boolean flag = CheckExistence();
+                if (!flag)
+                {
+                    QuestionWithOption question = new QuestionWithOption(1,
+                                Breach1Question.q1, Breach1Question.q1Answer,
+                                Breach1Question.q1Option1, Breach1Question.q1Option2,
+                                Breach1Question.q1Option3, Breach1Question.q1Option4);
+                    question.Show();
+                    question.QuesNo = 0;
+                }
             }
             else
             {
+                CheckExistence();
                 MessageBox.Show("Answer previous question first!!");
             }
+        }
+
+        private Boolean CheckExistence()
+        {
+            foreach (Form item in Application.OpenForms)
+            {
+                if (item.Name == "QuestionWithOption")
+                {
+                    item.Focus();
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             if (SharedData.phase1Correct[0] == 1)
             {
-                QuestionWithOption question = new QuestionWithOption();
-                question.labelQuestion.Text = Breach1Question.q2;
-                question.labelAnswer.Text = Breach1Question.q2Answer;
-                question.button1.Text = Breach1Question.q2Option1;
-                question.button2.Text = Breach1Question.q2Option2;
-                question.button3.Text = Breach1Question.q2Option3;
-                question.button4.Text = Breach1Question.q2Option4;
-                question.QuesNo = 1;
-                question.Show();
-                button3.Focus();
+                Boolean flag = CheckExistence();
+                if (!flag)
+                {
+                    QuestionWithOption question = new QuestionWithOption(2,
+                        Breach1Question.q2, Breach1Question.q2Answer,
+                        Breach1Question.q2Option1, Breach1Question.q2Option2,
+                        Breach1Question.q2Option3, Breach1Question.q2Option4);
+                    question.Show();
+                    question.QuesNo = 1;
+                }
             }
             else
             {
+                CheckExistence();
                 MessageBox.Show("Answer first question first!!");
             }
         }
@@ -120,19 +139,19 @@ namespace RiseOfUltron_29Feb2016
         {
             if (SharedData.phase1Correct[1] == 1)
             {
-                QuestionWithOption question = new QuestionWithOption();
-                question.labelQuestion.Text = Breach1Question.q3;
-                question.labelAnswer.Text = Breach1Question.q3Answer;
-                question.button1.Text = Breach1Question.q3Option1;
-                question.button2.Text = Breach1Question.q3Option2;
-                question.button3.Text = Breach1Question.q3Option3;
-                question.button4.Text = Breach1Question.q3Option4;
-                question.QuesNo = 2;
-                question.Show();
-                button4.Focus();
+                if (!CheckExistence())
+                {
+                    QuestionWithOption question = new QuestionWithOption(3,
+                        Breach1Question.q3, Breach1Question.q3Answer,
+                        Breach1Question.q3Option1, Breach1Question.q3Option2,
+                        Breach1Question.q3Option3, Breach1Question.q3Option4);
+                    question.Show();
+                    question.QuesNo = 2;
+                }
             }
             else
             {
+                CheckExistence();
                 MessageBox.Show("Answer second question first!!");
             }
         }
@@ -141,19 +160,19 @@ namespace RiseOfUltron_29Feb2016
         {
             if (SharedData.phase1Correct[2] == 1)
             {
-                QuestionWithOption question = new QuestionWithOption();
-                question.labelQuestion.Text = Breach1Question.q4;
-                question.labelAnswer.Text = Breach1Question.q4Answer;
-                question.button1.Text = Breach1Question.q4Option1;
-                question.button2.Text = Breach1Question.q4Option2;
-                question.button3.Text = Breach1Question.q4Option3;
-                question.button4.Text = Breach1Question.q4Option4;
-                question.QuesNo = 3;
-                question.Show();
-                button5.Focus();
+                if (!CheckExistence())
+                {
+                    QuestionWithOption question = new QuestionWithOption(4,
+                        Breach1Question.q4, Breach1Question.q4Answer,
+                        Breach1Question.q4Option1, Breach1Question.q4Option2,
+                        Breach1Question.q4Option3, Breach1Question.q4Option4);
+                    question.Show();
+                    question.QuesNo = 3;
+                }
             }
             else
             {
+                CheckExistence();
                 MessageBox.Show("Answer third question first!!");
             }
         }
